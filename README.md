@@ -18,3 +18,7 @@ I will push my assignments in this Repo.
 - week3 (2022.01.17 - 2022.01.23)
 
 - week4 (2022.01.24 - 2022.01.30)
+
+
+BR,
+Jenny Hung
