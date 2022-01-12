@@ -14,45 +14,44 @@ for i in lottoNumbers.count-3..<lottoNumbers.count {
 
 ### 2. 使用 Swift 語法取得圖中的列印結果
 ```
-for j in 5...10 {
-    print(j)  // 5 6 7 8 9 10
+var j = lottoNumbers.count - 1
+while j >= 0 {
+    print(lottoNumbers[j])
+    j -= 1
 }
-
-var k = 10
-while k >= 6 {
-    print(k)  // 10 8 6
-    k -= 2
+for j in 0..<lottoNumbers.count where j % 2 == 0 {
+    print(lottoNumbers[j])
 }
 ```
 
 ### 3. 使用 While 迴圈解決
 ```
-var m = 5
-while m <= 10 {
-    print(m)  // 5 6 7 8 9 10
-    m += 1
-}
-while m >= 6 {
-    if m % 2 == 0 {
-        print(m)  // 10 8 6
-    }
+var m = lottoNumbers.count - 1
+while m >= 0 {
+    print(lottoNumbers[m])
     m -= 1
+}
+while m < lottoNumbers.count {
+    if m % 2 == 0 {
+        print(lottoNumbers[m])
+    }
+    m += 1
 }
 ```
 
 ### 4. 請使用 repeat-while 迴圈解決
 ```
-var n = 5
-while n <= 10 {
-    print(n)
-    n += 1
+var n = lottoNumbers.count - 1
+while n >= 0 {
+    print(lottoNumbers[n])
+    n -= 1
 }
 repeat {    // 無論如何會執行第一次
     if n % 2 == 0 {
-        print(n)
+        print(lottoNumbers[n])
     }
-    n -= 1
-} while n >= 6
+    n += 1
+} while n < lottoNumbers.count
 ```
 
 ### 5. while 和 repeat-while 之間的差別
@@ -63,8 +62,8 @@ repeat {    // 無論如何會執行第一次
 當天氣為印出 raining 印出 "It’s raining, I don’t want to work today."
 否則印出 "Although it’s sunny, I still don’t want to work today."
 ```
-var isRaining = "sunny"
-if isRaining == "raining" {
+var isRaining = true
+if isRaining == true {
     print("It’s raining, I don’t want to work today.")
 }
 else {

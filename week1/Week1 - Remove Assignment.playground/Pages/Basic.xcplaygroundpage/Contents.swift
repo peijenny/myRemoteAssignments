@@ -21,8 +21,7 @@ average.rounded()
 var flag: Bool = true
 var inputString: String = "Hello world."
 let bitsInBite: Int = 8
-let averageScore: Float = 86.8
-
+let averageScore: Double = 86.8
 
 // 5. 建立 salary 值為 22000，使用複合賦值運算符將 salary 加上 28000
 var salary = 22000
