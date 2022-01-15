@@ -18,7 +18,7 @@ I will push my assignments in this Repo.
     - Enumerations and Optionals.playground
     - Protocol.playground
     - Error Handling.playground
-    - Simple App
+    - Simple_App
     - Screenshot
         - Mastering Auto Layout.png
         - Programming in Swift- Functions and Types.png
