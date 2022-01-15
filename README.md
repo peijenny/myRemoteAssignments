@@ -8,12 +8,22 @@ I will push my assignments in this Repo.
     - Control_Flow.md
     - Function.md
     - screenshot
-        - Command Line Basics.jpg
-        - Beginning Git.jpg
-        - Your First iOS and UIKit App.jpg
-        - Programming in Swift - Fundamentals.jpg
+        - Command Line Basics.png
+        - Beginning Git.png
+        - Your First iOS and UIKit App.png
+        - Programming in Swift - Fundamentals.png
 
 - week2 (2022.01.10 - 2022.01.16)
+    - Object-Oriented.playground
+    - Enumerations and Optionals.playground
+    - Protocol.playground
+    - Error Handling.playground
+    - Simple App
+    - Screenshot
+        - Mastering Auto Layout.png
+        - Programming in Swift- Functions and Types.png
+        - UIKit Fundamentals.png
+        - UIKit- Layout.png
 
 - week3 (2022.01.17 - 2022.01.23)
 
