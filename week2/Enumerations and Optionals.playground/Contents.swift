@@ -6,8 +6,8 @@ enum Gasoline: String {    // 型態為 String
     case oil98 = "98"
     case diesel = "diesel"
     
-    func getPrice(for price: Gasoline) -> Double {
-        switch price {
+    func getPrice() -> Double {
+        switch self {
         case .oil92:
             return 28.6
         case .oil95:
@@ -24,7 +24,7 @@ enum Gasoline: String {    // 型態為 String
 print(Gasoline.oil92.rawValue)   // rawValue 取原始值
 
 var getOil92Price: Gasoline = .oil92
-getOil92Price.getPrice(for: .oil92)   // 透過 getPrice 取 oil92 的價格
+getOil92Price.getPrice()  // 透過 getPrice 取 oil92 的價格
 
 // 請解釋 enum associated value (關聯值) 是什麼，如何運用
 // Associated Value 除 case 宣告種類以外，可以在參數名稱後面，使用 () 宣告相關聯的參數值。
