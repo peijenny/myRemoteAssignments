@@ -11,13 +11,10 @@ protocol ToolMan {
 }
 
 // struct Person & name: String
-struct Person: PoliceMan,ToolMan {  // 加入 PoliceMan & ToolMan 協議
+struct Person: PoliceMan, ToolMan {  // 加入 PoliceMan & ToolMan 協議
     var name: String
-    func arrestCriminals() {
-        name
-    }
-    
-    typealias ToolMan = String
+    func arrestCriminals() -> Void { }
+
     var toolMan: ToolMan
     func fixComputer() { }
 }
@@ -25,8 +22,7 @@ struct Person: PoliceMan,ToolMan {  // 加入 PoliceMan & ToolMan 協議
 
 // struct Engineer
 struct Engineer: ToolMan {  // 加入 ToolMan 協議
-    func fixComputer() { }
+    func fixComputer() { }   // instence
 }
-
-let Steven = Person(name: "Steven", toolMan:"Engineer") // Steven 實例
+let Steven = Person(name: "Steven", toolMan: Engineer()) // Steven 實例
 print(Steven)
