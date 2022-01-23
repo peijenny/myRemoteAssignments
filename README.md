@@ -26,6 +26,11 @@ I will push my assignments in this Repo.
         - UIKit- Layout.png
 
 - week3 (2022.01.17 - 2022.01.23)
+    - myAppWorkSchool
+    - Screenshot
+        - Table Views.png
+        - Collection Views.png
+        - UIkit Animation.png
 
 - week4 (2022.01.24 - 2022.01.30)
 
