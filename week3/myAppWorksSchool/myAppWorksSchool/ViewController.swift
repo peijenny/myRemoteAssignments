@@ -119,10 +119,10 @@ class ViewController: UIViewController {
             alertTitle = "Error"
             alertMessage = "Check should not be empty."
         }
-        else if(userAccountPassword[userAccount] != nil) {  // 帳號不可存在於字典中
+        /*else if(userAccountPassword[userAccount] != nil) {  // 帳號不可存在於字典中
             alertTitle = "Error"
             alertMessage = "Account already exists, sign up fail."
-        }
+        }*/
         else {
             userAccountPassword[userAccount] = userPassword   // 新帳密加到字典中
             alertTitle = "Success"
