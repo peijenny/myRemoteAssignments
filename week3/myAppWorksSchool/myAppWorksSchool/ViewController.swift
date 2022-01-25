@@ -123,6 +123,10 @@ class ViewController: UIViewController {
             alertTitle = "Error"
             alertMessage = "Account already exists, sign up fail."
         }*/
+        else if(userPassword != userCheck) {  // 檢查密碼與檢查碼是否一致
+            alertTitle = "Error"
+            alertMessage = "Password and Check are not same!!"
+        }
         else {
             userAccountPassword[userAccount] = userPassword   // 新帳密加到字典中
             alertTitle = "Success"
