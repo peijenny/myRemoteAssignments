@@ -33,6 +33,15 @@ I will push my assignments in this Repo.
         - UIkit Animation.png
 
 - week4 (2022.01.24 - 2022.01.30)
+    - Closure.playground
+    - myStationApp
+    - myTableView
+    - Screenshot
+        - Beginning Core Data.png
+        - Gesture Recognizers in iOS.png
+        - Networking with URLSession.png
+        - Saving Data in iOS.png
+        - Xcode Tips and Tricks.png
 
 
 BR,
